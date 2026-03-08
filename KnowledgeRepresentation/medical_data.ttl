@@ -1,0 +1,12 @@
+@prefix : <http://example.org/medical#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://example.org/medical#BodyPart_1> rdf:type :BodyPart ; :hasName "Lung" .
+<http://example.org/medical#BodyPart_2> rdf:type :BodyPart ; :hasName "Heart" .
+<http://example.org/medical#Symptom_1> rdf:type :Symptom ; :hasName "Cough" .
+<http://example.org/medical#Symptom_2> rdf:type :Symptom ; :hasName "Chest pain" .
+<http://example.org/medical#Sex_1> rdf:type :Female ; :hasType "Female" .
+<http://example.org/medical#Sex_2> rdf:type :Male ; :hasType "Male" .
+<http://example.org/medical#Disease_1> rdf:type :Disease ; :hasName "Pneumonia" ; :hasCategory "General" .
+<http://example.org/medical#Disease_1> :affectsBodyPart <http://example.org/medical#BodyPart_1> .
+<http://example.org/medical#Disease_1> :hasSymptom <http://example.org/medical#Symptom_1> .

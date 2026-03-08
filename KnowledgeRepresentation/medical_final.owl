@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="urn:webprotege:ontology:c031b508-237a-4ce2-912b-de9285461ce1"
+         xmlns="urn:webprotege:ontology:c031b508-237a-4ce2-912b-de9285461ce1#"
+         xmlns:webp="http://webprotege.stanford.edu/">
+
+<owl:Ontology rdf:about="urn:webprotege:ontology:c031b508-237a-4ce2-912b-de9285461ce1"/>
+
+<owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9wkNp9WRRq0L1lNnlT6eQu">
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBR9qBNp0ori3oP176FzfIi"/>
+  <rdfs:range rdf:resource="http://webprotege.stanford.edu/RuWTvTcnvrkyLR5fSxhpYR"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasSymptom</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+
+<owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBDVuo84RmSmtQrR3LIhVgd">
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBR9qBNp0ori3oP176FzfIi"/>
+  <rdfs:range rdf:resource="http://webprotege.stanford.edu/RDIQGtitmlKjej8qqXAhniw"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isConditionOf</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCTdIvuLnw2S1INJlHBWvuo">
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7deFhtGeweMlA2kfGlYa0j"/>
+  <rdfs:range rdf:resource="http://webprotege.stanford.edu/RBR9qBNp0ori3oP176FzfIi"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasCondition</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCxNzHVq0ZR6lWNK1dTsysC">
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7deFhtGeweMlA2kfGlYa0j"/>
+  <rdfs:range rdf:resource="http://webprotege.stanford.edu/RuWTvTcnvrkyLR5fSxhpYR"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasObservedSymptom</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDFdiFpPS9PTCPSZWl3qOpZ">
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBR9qBNp0ori3oP176FzfIi"/>
+  <rdfs:range rdf:resource="http://webprotege.stanford.edu/RrgLpBHpt7vLMqg4mFCP7h"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasLocation</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDYBCPkMVhRT8jYQSP81gaH">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disjoint with</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDjCNzX3oR20mXZ5l1dDo0z">
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7deFhtGeweMlA2kfGlYa0j"/>
+  <rdfs:range rdf:resource="http://webprotege.stanford.edu/RDGISK7fi1czjbEDFFGQkw7"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasSex</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBLclf3rcVm66MyZnyNARn4">
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7deFhtGeweMlA2kfGlYa0j"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age</rdfs:label>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://www.w3.org/2002/07/owl#topDataProperty"/>
+
+<owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCYgvUM6pbHtARaILnOu74Y">
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7deFhtGeweMlA2kfGlYa0j"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">patientId</rdfs:label>
+</owl:DatatypeProperty>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+
+<owl:Class rdf:about="http://webprotege.stanford.edu/RBR9qBNp0ori3oP176FzfIi">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://webprotege.stanford.edu/RuWTvTcnvrkyLR5fSxhpYR">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symptom</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://webprotege.stanford.edu/RDIQGtitmlKjej8qqXAhniw">
+  <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDGISK7fi1czjbEDFFGQkw7"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://webprotege.stanford.edu/R7deFhtGeweMlA2kfGlYa0j">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://webprotege.stanford.edu/RrgLpBHpt7vLMqg4mFCP7h">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BodyPart</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://webprotege.stanford.edu/RDGISK7fi1czjbEDFFGQkw7">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sex</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://webprotege.stanford.edu/RBP8W10B4g6Aoul6Y0Q97TZ">
+  <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDGISK7fi1czjbEDFFGQkw7"/>
+  <owl:disjointWith rdf:resource="http://webprotege.stanford.edu/RDIQGtitmlKjej8qqXAhniw"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://webprotege.stanford.edu/RD3K5xkq1loDjwwmXj4j9Qg">
+  <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBR9qBNp0ori3oP176FzfIi"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBDVuo84RmSmtQrR3LIhVgd"/>
+      <owl:allValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIQGtitmlKjej8qqXAhniw"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty>
+        <rdf:Description>
+          <owl:inverseOf rdf:resource="http://webprotege.stanford.edu/RCTdIvuLnw2S1INJlHBWvuo"/>
+        </rdf:Description>
+      </owl:onProperty>
+      <owl:allValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIQGtitmlKjej8qqXAhniw"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MaleOnlyDisease</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://webprotege.stanford.edu/RDHAOKYujHoXNCTaERgA4Uk">
+  <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBR9qBNp0ori3oP176FzfIi"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FemaleOnlyDisease</rdfs:label>
+</owl:Class>
+
+<owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7xDFnn4lt92Cby1vUzcqWR">
+  <rdf:type rdf:resource="http://webprotege.stanford.edu/R7deFhtGeweMlA2kfGlYa0j"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient_001</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R801yZwJAOr06E1xuYpXxZz">
+  <rdf:type rdf:resource="http://webprotege.stanford.edu/RD3K5xkq1loDjwwmXj4j9Qg"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prostate_Cancer_001</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8VKZWJjToKr5KwLmT61Mku">
+  <rdf:type rdf:resource="http://webprotege.stanford.edu/RuWTvTcnvrkyLR5fSxhpYR"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PelvicPain</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9CaEeVI6ue0PxgbRQQ6Ta2">
+  <rdf:type rdf:resource="http://webprotege.stanford.edu/RBR9qBNp0ori3oP176FzfIi"/>
+  <webp:R9wkNp9WRRq0L1lNnlT6eQu rdf:resource="http://webprotege.stanford.edu/RBFYZT2cwtlWVGocDtY7sah"/>
+  <webp:R9wkNp9WRRq0L1lNnlT6eQu rdf:resource="http://webprotege.stanford.edu/RBQjh7wx6h6P9U7E1G5mU79"/>
+  <webp:RDFdiFpPS9PTCPSZWl3qOpZ rdf:resource="http://webprotege.stanford.edu/R9rhka7eSlyg4eUiqONoJ3v"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pneumonia</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBFYZT2cwtlWVGocDtY7sah">
+  <rdf:type rdf:resource="http://webprotege.stanford.edu/RuWTvTcnvrkyLR5fSxhpYR"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBQjh7wx6h6P9U7E1G5mU79">
+  <rdf:type rdf:resource="http://webprotege.stanford.edu/RuWTvTcnvrkyLR5fSxhpYR"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cough</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9rhka7eSlyg4eUiqONoJ3v">
+  <rdf:type rdf:resource="http://webprotege.stanford.edu/RrgLpBHpt7vLMqg4mFCP7h"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lung</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBFQ3VGnUUBdGLvIDMv6R3h">
+  <rdf:type rdf:resource="http://webprotege.stanford.edu/RDHAOKYujHoXNCTaERgA4Uk"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OvariaCancer</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBl7Nk48j1rlFwGUKqGSBYk">
+  <rdf:type rdf:resource="http://webprotege.stanford.edu/RD3K5xkq1loDjwwmXj4j9Qg"/>
+  <webp:RDFdiFpPS9PTCPSZWl3qOpZ rdf:resource="http://webprotege.stanford.edu/RMy3XM6JKrL5MGmYBuyKFa"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProstateCancer</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RMy3XM6JKrL5MGmYBuyKFa">
+  <rdf:type rdf:resource="http://webprotege.stanford.edu/RrgLpBHpt7vLMqg4mFCP7h"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prostate</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDQBh7o7rv8vx4HRON00NXS">
+  <rdf:type rdf:resource="http://webprotege.stanford.edu/RrgLpBHpt7vLMqg4mFCP7h"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ovary</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rsc1ekoFG276UG5OfQfZ17">
+  <rdf:type rdf:resource="http://webprotege.stanford.edu/R7deFhtGeweMlA2kfGlYa0j"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDjCNzX3oR20mXZ5l1dDo0z"/>
+      <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBP8W10B4g6Aoul6Y0Q97TZ"/>
+    </owl:Restriction>
+  </rdf:type>
+  <webp:RBLclf3rcVm66MyZnyNARn4 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</webp:RBLclf3rcVm66MyZnyNARn4>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient2</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sex_1">
+  <rdf:type rdf:resource="http://webprotege.stanford.edu/RDGISK7fi1czjbEDFFGQkw7"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sex_2">
+  <rdf:type rdf:resource="http://webprotege.stanford.edu/RDGISK7fi1czjbEDFFGQkw7"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#BodyPart_1">
+  <rdf:type rdf:resource="http://webprotege.stanford.edu/RrgLpBHpt7vLMqg4mFCP7h"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#BodyPart_2">
+  <rdf:type rdf:resource="http://webprotege.stanford.edu/RrgLpBHpt7vLMqg4mFCP7h"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Symptom_1">
+  <rdf:type rdf:resource="http://webprotege.stanford.edu/RuWTvTcnvrkyLR5fSxhpYR"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Symptom_2">
+  <rdf:type rdf:resource="http://webprotege.stanford.edu/RuWTvTcnvrkyLR5fSxhpYR"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Disease_1">
+  <rdf:type rdf:resource="http://webprotege.stanford.edu/RBR9qBNp0ori3oP176FzfIi"/>
+  <webp:RDFdiFpPS9PTCPSZWl3qOpZ rdf:resource="#BodyPart_1"/>
+  <webp:R9wkNp9WRRq0L1lNnlT6eQu rdf:resource="#Symptom_1"/>
+</owl:NamedIndividual>
+
+<rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+
+<rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+
+<rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+
+
+</rdf:RDF>
