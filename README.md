@@ -127,10 +127,9 @@ These results demonstrate that the Siamese network can detect meaningful structu
 * TensorFlow / Keras
 * NumPy
 * Matplotlib
-* Owlready2
 * SQLite
 * Protégé
-* Jupyter Notebook / Google Colab
+* Google Colab
 
 ---
 
