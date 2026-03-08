@@ -88,7 +88,7 @@ The implemented architecture is a **Siamese U-Net**, which processes two tempora
 
 ### File
 
-change_detection_model.ipynb
+DetectingObjectChangesInImages.ipynb
 
 The notebook contains the full deep learning pipeline:
 
