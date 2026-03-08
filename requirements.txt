@@ -1,0 +1,19 @@
+# Deep Learning
+tensorflow
+keras
+numpy
+matplotlib
+opencv-python
+scikit-learn
+tqdm
+
+# Data processing
+pandas
+Pillow
+
+# Knowledge Representation
+owlready2
+rdflib
+
+# Database
+sqlite3
