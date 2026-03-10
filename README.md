@@ -1,6 +1,9 @@
 # ArtificialIntelligenceProject
 AI project combining ontology reasoning (OWL + Owlready2) and deep learning (Siamese U-Net) to demonstrate knowledge representation and satellite image change detection.
 
+Google Colab Link - https://colab.research.google.com/drive/1Bhf39JapXBlpYeJIlqZacG643RmpiNwy?usp=sharing 
+
+
 ---
 
 ## Navigation
